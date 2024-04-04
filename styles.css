@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(67, 63, 63);
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:cornflowerblue;
+    padding: 35px 0;
+    color: white;
+}
+header p {
+    font-size: 31px;
+}
+header h1 {
+    margin-top: 5px;
+    font-size: 45px;
+}
+.content {
+    width: 100%;
+}
+.content-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 21px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.options {
+    display: flex;
+}
+.options p {
+    padding-inline: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.boxs {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.boxs1, .boxs2 {
+    display: flex;
+    gap: 30px;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+    box-shadow: 1px 1px 6px white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box p {
+    font-size: 21px;
+    font-weight: bolder;
+}
+.box .correct {
+    color: chartreuse;
+}
+.box .invalid {
+    color: red;
+}
+.disnone {
+    display: none;
+}
+.toggleron {
+    display: block;
+}
+.btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+}
+.btns p{
+    color: white;
+    font-weight: bold;
+    background-color: cornflowerblue;
+
+    font-size: 25px;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.start:hover {
+    background-color: green;
+}
+
+.options p:hover {
+    background-color:cornflowerblue;
+    color: white;
+}
