@@ -18,10 +18,6 @@ easy.addEventListener('click', function(){
 
 hard.addEventListener('click', function(){
     gm = 6
-//     boxs2.innerHTML = `<div class="box"></div>
-//     <div class="box"></div>
-//     <div class="box"></div>
-// `
     boxs2.classList.remove('disnone')
 })
 
